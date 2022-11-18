@@ -5,6 +5,7 @@ body {
     font-weight: 300;
     line-height: 1.6;
     color: #4a4a4a;
+    padding: 0 16px;
 }
 
 h1,
@@ -66,4 +67,18 @@ a:active {
     border-radius: 3px;
     border-bottom: 2px solid #09443d;
     transition: 0.2s opacity;
+}
+
+.read-more-button:hover {
+    color: #2B9D8F;
+    text-decoration: underline;
+}
+
+
+.read-more-button:visited {
+    color: #0e1a18;
+}
+
+.read-more-button:active {
+    color: #8ab6b1;
 }
