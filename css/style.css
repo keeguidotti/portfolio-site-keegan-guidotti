@@ -18,10 +18,11 @@ header {
 #headerBackground {
     width: 100%;
     height: 120px;
-    background-image: url("../img/web-banner-back.png");
+    background-image: linear-gradient(to right, #FDDBE4, #A7CFDA);
 }
 
 #headerSigniture {
+
     height: 80px;
     margin-top: 20px;
 }
@@ -42,7 +43,7 @@ nav a {
 }
 
 nav a:visited {
-    color: #FDDBE4;
+    color: #A7CFDA;
 }
 
 nav a:hover,
@@ -52,7 +53,7 @@ nav a:focus {
 }
 
 nav a:active {
-    color: #8ab6b1;
+    color: #A7CFDA;
 }
 
 nav>ul {
@@ -119,27 +120,27 @@ a {
 }
 
 a:visited {
-    color: #FDDBE4;
+    color: #A7CFDA;
 }
 
 a:hover,
 a:focus {
-    color: #FDDBE4;
+    color: #A7CFDA;
     text-decoration: underline;
 }
 
 a:active {
-    color: #FDDBE4;
+    color: #A7CFDA;
 }
 
 .button {
     display: inline-block;
     background-color: #A7CFDA;
-    color: #7E7F83;
+    color: #4a4a4a;
     font-weight: 400;
     padding: 10px;
     border-radius: 3px;
-    border-bottom: 2px solid #2c3f44;
+    border-bottom: 2px solid #4a4a4a;
     transition: 0.2s opacity;
 }
 
@@ -149,15 +150,43 @@ a:active {
 
 .button:hover,
 .button:focus {
-    color: #7E7F83;
+    color: #4a4a4a;
     text-decoration: underline;
 }
 
 .button:active {
-    color: #FDDBE4;
+    color: #A7CFDA;
 }
 
 footer {
     padding: 10px;
     margin: 10px
+}
+
+#linkedin {
+    width: 100px;
+}
+
+#helloContainer {
+    padding: 50px;
+    padding-top: 150px;
+    background-color: #A7CFDA;
+}
+
+#helloTextContainer {
+    background-color: white;
+    text-align: center;
+    padding: 100px 15px 50px 15px;
+    position: relative;
+}
+
+#profileImage {
+    height: 200px;
+    top: -120px;
+    width: 200px;
+    position: absolute;
+    margin-left: -100px;
+    border-radius: 50%;
+    border: 4px solid #ffffff;
+
 }
