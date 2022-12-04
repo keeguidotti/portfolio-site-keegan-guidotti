@@ -170,7 +170,7 @@ footer {
 #helloContainer {
     padding: 50px;
     padding-top: 150px;
-    background-color: #A7CFDA;
+    background-image: linear-gradient(to bottom right, #FDDBE4, #A7CFDA);
 }
 
 #helloTextContainer {
