@@ -2,44 +2,34 @@
 <html lang="en" dir="ltr">
 
 <head>
-  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
-  <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="theme-color" content="#ffffff">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta charset="uft-8" / <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width-device-width, intial scale=1">
   <link rel="stylesheet" type="text/css"
     href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Sono:wght@400;700&display=swap" rel="stylesheet">
-  <title> About Me </title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <title>About</title>
 </head>
 
 <body>
-  <header>
+  <header class="blueSection">
     <div>
-      <div id="headerBackground">
+      <div>
         <img src="img/web-banner-front.svg" alt="Keegan Guidotti signiture in cursive" id="headerSigniture" />
+        <nav>
+          <ul>
+            <li><a href="index.html">Work</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
       </div>
-      <nav>
-        <ul>
-          <li><a href="index.html">Work</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
     </div>
   </header>
   <main id="aboutMeSection">
     <div>
       <div id="heroSection">
-        <h1>About</h1>
+        <h1>About Me</h1>
       </div>
     </div>
 
@@ -57,26 +47,23 @@
         </div>
         <div>
           <div>
-            <!--coloumn 1-->
             <h2>My Story</h2>
             <p>
-              I'm currently in Melbourne Australia, but my goal is to be able to travel and work internationally.
+              I'm currently in Melbourne Australia, but my goal is to be able to travel and work internationally.<br />
               I spend my free time playing Dungeons and Dragons and creating character art for players.
-              I also am an avid video game player and cook with my own recipe book.
+              I also am an avid video game player and cook with my own recipe book.<br />
               A fun fact about me is that I have my motorcycle license and I've travelled around Bali and Thailand on
-              bike.
+              bike.<br />
               I am first a Registered Nurse, but during COVID and being trapped in Japan,
               I discovered the UX career pathway and through completing this course and all my friends being developers,
               I am now progressing towards a developer career.
             </p>
-            <a href="files/cv.pdf" download target="_blank">Download my CV</a>
+            <a href="files/cv.pdf" class="button" download target="_blank">Download my CV</a>
           </div>
-          <!--coloumn 1 end-->
           <div>
-            <!--coloumn 2-->
             <h2>Skills & Tools</h2>
-            <div>
-              <div>
+            <div class="row">
+              <div class="column">
                 <h3>My Skills</h3>
                 <ul>
                   <li>Web Design</li>
@@ -88,7 +75,7 @@
                   <li>HTML</li>
                 </ul>
               </div>
-              <div>
+              <div class="column">
                 <h3>My Tools</h3>
                 <ul>
                   <li>Figma</li>
@@ -101,25 +88,32 @@
               </div>
             </div>
           </div>
-          <!--coloumn 2 end-->
         </div>
       </div>
     </div>
   </main>
 
   <footer id="contact">
-    <div>
+    <div class="blueSection">
       <div>
         <h2>Get in Touch</h2>
+        <a href="kee.guidotti@gmail.com" class="button" download target="_blank">Send email</a>
         <p>
-          Am I the solution to your problem? Come say hello.
+          Am I the solution to your problem? Come say hello.<br />
           Call me: <a href="tel:+0412345678">+0412345678</a>
           See me: <a href="skype:kee.guidotti">kee.guidotti</a>
           Write me:<a href="kee.guidotti@gmail.com">email</a>
         <p>
+
         <div>
-          <a href="https://www.linkedin.com/in/keeguidotti/" target="_blank">
-            <img src="img/linkedin-logo.svg" alt="linkedin logo" id="linkedin" />
+          <a href="https://www.linkedin.com/in/keeguidotti" target="_blank" />
+          <img src="img/linkedin-logo.svg" alt="linkedin logo" id="linkedin" />
+          </a>
+          <a href="https://www.instagram.com/kawaiikeekee/" target="_blank" />
+          <img src="img/instagram-logo.svg" alt="instagram logo" id="instagram" />
+          </a>
+          <a href="https://github.com/keeguidotti" target="_blank">
+            <img src="img/github-logo.svg" alt="github logo" id="github" />
           </a>
         </div>
         <p>
