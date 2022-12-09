@@ -17,16 +17,6 @@ header {
     background-color: #A7CFDA;
 }
 
-#downBlueGradiant {
-    background-image: linear-gradient(#A7CFDA, #ffffff);
-    height: 50px;
-}
-
-#upBlueGradiant {
-    background-image: linear-gradient(#ffffff, #a7cfda);
-    height: 50px;
-}
-
 #headerSigniture {
     height: 80px;
     margin-top: 20px;
@@ -170,6 +160,14 @@ footer {
     width: 100px;
 }
 
+#instagram {
+    width: 100px;
+}
+
+#github {
+    width: 100px;
+}
+
 #helloContainer {
     padding: 50px;
     padding-top: 150px;
@@ -212,7 +210,18 @@ footer {
     }
 }
 
-@media only screen and (min-width: 1024px) {}
+@media only screen and (min-width: 1024px) {
+    .column {
+        float: left;
+        width: 50%;
+    }
+
+    .row::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
 
 @media only screen and (min-width: 1440px) {}
 
