@@ -9,46 +9,58 @@ body {
 
 header {
     text-align: center;
-    top: 0;
     padding: 0px 10px 0px 10px;
 }
 
-.blueSection {
+.blue-section {
     background-color: #A7CFDA;
 }
 
-.blueSection .button {
+.blue-section .button {
     color: black;
     background-color: white;
 
 }
 
-.blueSection .button:visited {
+.blue-section .button:visited {
     color: black;
     background-color: #ffffff;
 }
 
-.blueSection .button:hover,
+.blue-section .button:hover,
 .button:focus {
     color: black;
     background-color: white;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
-.blueSection .button:active {
+.blue-section .button:active {
     color: black;
     background-color: white;
 }
 
 #headerSigniture {
     height: 80px;
-    margin-top: 20px;
     width: auto;
 
 }
 
-main>div {
-    padding: 0px 30px 0px 30px;
+#heroSection span {
+    display: block;
+    font-size: 60%;
+    margin-top: 1em;
+}
+
+#heroSection p {
+    margin: 0px 15px 0px 15px;
+}
+
+main {
+    padding-bottom: 30px;
+}
+
+.container {
+    padding: 0px 30px;
 }
 
 nav {
@@ -115,6 +127,8 @@ h1 {
 h2 {
     font-size: 2.25em;
     font-weight: 700;
+    margin: 0;
+    padding: 0.83em;
 }
 
 .centered {
@@ -164,10 +178,12 @@ a:active {
     background-color: #A7CFDA;
     color: #4a4a4a;
     font-weight: 400;
+    text-decoration: none;
     padding: 10px;
     border-radius: 3px;
     border-bottom: 2px solid #4a4a4a;
     transition: 0.2s opacity;
+    transition-property: opacity;
 }
 
 .button:visited {
@@ -177,7 +193,8 @@ a:active {
 .button:hover,
 .button:focus {
     color: #ffffff;
-    text-decoration: underline;
+    opacity: 0.8;
+    text-decoration: none;
 }
 
 .button:active {
@@ -193,16 +210,13 @@ p {
     padding: 16px 0px;
 }
 
-#linkedin {
+.social-icons>img {
     width: 100px;
 }
 
-#instagram {
-    width: 100px;
-}
-
-#github {
-    width: 100px;
+.social-icons:hover,
+.social-icons:focus {
+    text-decoration: none;
 }
 
 #helloContainer {
@@ -229,10 +243,19 @@ p {
 
 }
 
+iframe {
+    max-width: 100%;
+}
+
 @media only screen and (min-width: 640px) {
     header {
         text-align: unset;
         padding: 20px 20px 13px;
+    }
+
+    #headerSigniture {
+        margin-top: 0;
+
     }
 
     nav {

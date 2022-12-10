@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width-device-width, intial scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css"
     href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -12,31 +12,31 @@
 </head>
 
 <body>
-  <header class="blueSection">
-    <div>
-      <div>
-        <img src="img/web-banner-front.svg" alt="Keegan Guidotti signiture in cursive" id="headerSigniture" />
-        <nav>
-          <ul>
-            <li><a href="index.html">Work</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
+  <header class="blue-section">
+    <div class="container">
+      <a href="index.html"><img src="img/web-banner-front.svg" alt="Keegan Guidotti signiture in cursive"
+          id="headerSigniture" /></a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Work</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </div>
   </header>
   <main>
-    <div class="blueSection">
-      <div id="heroSection">
-        <h1>Hi, my name is Keegan Guidotti <br />Nurse turned UX/Web Developer</h1>
+    <div class="blue-section" id="heroSection">
+      <div class="container">
+        <h1>Hi, my name is Keegan Guidotti<span>
+            Nurse turned UX/Web Developer</span></h1>
         <p>
-          I am looking to use my multidisciplinary skills <br /> to navigate the gap between technology and the user
+          I am looking to use my multidisciplinary skills to navigate the gap between technology and the user.
         </p>
       </div>
     </div>
-    <div>
-      <div id="workSection">
+    <div id="workSection">
+      <div class="container">
         <h2>My Work</h2>
         <div class="row">
           <div class="column">
@@ -59,27 +59,33 @@
     </div>
   </main>
 
-  <footer id="contact">
-    <div class="blueSection">
+  <footer class="blue-section" id="contact">
+    <div class="container">
       <div>
         <h2>Get in Touch</h2>
         <a href="kee.guidotti@gmail.com" class="button" download target="_blank">Send email</a>
         <p>
-          Am I the solution to your problem? Come say hello.<br />
-          Call me: <a href="tel:+0412345678">+0412345678</a>
-          See me: <a href="skype:kee.guidotti">kee.guidotti</a>
-          Write me:<a href="kee.guidotti@gmail.com">email</a>
+          Am I the solution to your problem? Come say hello.
+        </p>
         <p>
+          Call me: <a href="tel:+0412345678">+0412345678</a>
+        </p>
+        <p>
+          See me: <a href="skype:kee.guidotti">kee.guidotti</a>
+        </p>
+        <p>
+          Write me:<a href="mailto:kee.guidotti@gmail.com">email</a>
+        </p>
 
         <div>
-          <a href="https://www.linkedin.com/in/keeguidotti" target="_blank" />
-          <img src="img/linkedin-logo.svg" alt="linkedin logo" id="linkedin" />
+          <a href="https://www.linkedin.com/in/keeguidotti" target="_blank" class="social-icons">
+            <img src="img/linkedin-logo.svg" alt="linkedin logo" />
           </a>
-          <a href="https://www.instagram.com/kawaiikeekee/" target="_blank" />
-          <img src="img/instagram-logo.svg" alt="instagram logo" id="instagram" />
+          <a href="https://www.instagram.com/kawaiikeekee/" target="_blank" class="social-icons">
+            <img src="img/instagram-logo.svg" alt="instagram logo" />
           </a>
-          <a href="https://github.com/keeguidotti" target="_blank">
-            <img src="img/github-logo.svg" alt="github logo" id="github" />
+          <a href="https://github.com/keeguidotti" target="_blank" class="social-icons">
+            <img src="img/github-logo.svg" alt="github logo" />
           </a>
         </div>
         <p>
@@ -88,6 +94,7 @@
       </div>
     </div>
   </footer>
+  <script src="js/script.js"></script>
 </body>
 
 </html>
