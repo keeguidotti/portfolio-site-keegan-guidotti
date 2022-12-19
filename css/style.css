@@ -45,13 +45,13 @@ header {
 
 }
 
-#heroSection span {
+#hero-section span {
     display: block;
     font-size: 60%;
     margin-top: 1em;
 }
 
-#heroSection p {
+#hero-section p {
     margin: 0px 15px 0px 15px;
 }
 
@@ -103,7 +103,7 @@ nav>ul>li>a {
     color: #ffffff
 }
 
-#heroSection {
+#hero-section {
     margin: 0;
     padding: 20px 0;
     display: inline-block;
@@ -219,13 +219,13 @@ p {
     text-decoration: none;
 }
 
-#helloContainer {
+#hello-container {
     padding: 50px;
     padding-top: 150px;
     background-image: linear-gradient(to bottom right, #FDDBE4, #A7CFDA);
 }
 
-#helloTextContainer {
+#hello-text-container {
     background-color: white;
     text-align: center;
     padding: 100px 15px 50px 15px;
